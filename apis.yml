@@ -1,0 +1,31 @@
+aid: checker-lazynext
+name: Lazynext Accessibility Checker
+description: 'Lazynext Accessibility Checker is a company surfaced via the API Evangelist harvest backlog
+  (source: new-submission) and added to the network as a stub for full-pipeline profiling.'
+url: https://artifacts.apis.io/checker-lazynext/apis.yml
+x-type: company
+x-source: harvest:new-submission
+x-tier: stub
+x-tier-reason: harvest
+specificationVersion: '0.20'
+created: '2026-11-08'
+modified: '2026-11-08'
+tags:
+- Company
+apis: []
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+- FN: APIs.json
+  email: info@apis.io
+common:
+- type: Website
+  url: https://checker.lazynext.com/
+- type: Documentation
+  url: https://api.lazynext.com/openapi.json
+x-submission-notes: 'Free WCAG 2.1/2.2 accessibility scanner by Lazynext (UNITED GLOBAL VENTURES PRIVATE
+  LIMITED, Bengaluru, India).  OpenAPI 3.1: https://api.lazynext.com/openapi.json (21 paths, 3 declared
+  security schemes: LicenseEmail, ConfirmToken, UnsubscribeSig). MCP: POST https://checker.lazynext.com/mcp
+  — JSON'
+x-submission-probe: 2026-11-07 200 https://checker.lazynext.com/ ctl=404
+x-submitted-by: support@lazynext.com (submission, 2026-11-07)
